@@ -538,8 +538,6 @@ margin-bottom: 10px;
   justify-content: center;
 }
 .social-item{
-  /* width: 44px;
-  height: 44px; */
 
   display: flex;
   align-items: center;
@@ -561,14 +559,15 @@ margin-bottom: 10px;
 }
 .social-icon{
   fill:#AFB1B8;
-}
-.social-link:hover .social-icon,
-.social.link:focus .social-icon{
-  fill: var(--primery-white-color);
+  background-color: transparent;
 }
 .social-link:hover,
 .social-link:focus{
   background-color: var(--accent-color);
+}
+.social-link:hover .social-icon,
+.social-link:focus .social-icon{
+  fill: var(--primery-white-color);
 }
 
 /* ***************** */
@@ -751,7 +750,7 @@ margin-bottom: 50px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
   margin-top: 0;
   margin-bottom: 20px;
